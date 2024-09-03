@@ -1,0 +1,14 @@
+--load_weights_folder /mnt/data1/nick/depth/SfMNeXt-Impl/exps/convnext_v13_xxlarge/cvnXt_075/models/weights_13
+--image_path /mnt/data1/nick/depth/VPD/depth/kitti_dataset/raw_data/2011_09_28/2011_09_28_drive_0001_sync/image_00/data/0000000003.png
+--height 320 
+--width 1024
+--model_dim 32
+--patch_size 20
+--dim_out 100
+--query_nums 128
+--min_depth 0.001
+--max_depth 80.0
+--ext png
+
+
+

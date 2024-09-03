@@ -1,0 +1,25 @@
+--data_path depth/kitti_dataset/raw_data/
+--log_dir exps/convnext_v15_large
+--model_name cvnXt_075
+--dataset kitti
+--eval_split eigen
+--backbone convnext_large_in22ft1k
+--height 320
+--width 1024
+--log_frequency 1000
+--batch_size 8
+--learning_rate 1e-4
+--num_epochs 20
+--scheduler_step_size 10
+--model_dim 32
+--patch_size 32
+--dim_out 64
+--query_nums 64
+--dec_channels 1024 512 256 128
+--min_depth 0.001
+--max_depth 80.0
+--use_stereo
+--load_weights_folder exps/convnext_v14_xxlarge/cvnXt_075/models/weights_18
+--pose_net_path exps/convnext_v13_xxlarge/cvnXt_075/models/weights_13/
+--eval_mono
+--post_process

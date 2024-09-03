@@ -1,0 +1,30 @@
+--name cvnXt_075_finetune
+--root exps/inc_kitti_exps_v13
+--load_weights_folder exps/convnext_v13_xxlarge/cvnXt_075/models/weights_13
+--epochs 5
+--bs 3
+--lr 2e-6
+--wd 0.01
+--div_factor 10
+--final_div_factor 100
+--validate_every 3000
+--dataset kitti
+--workers 8
+--w_chamfer 0
+--data_path depth/kitti_dataset/
+--gt_path depth/kitti_dataset/
+--filenames_file ./finetune/train_test_inputs/kitti_eigen_train_files_with_gt.txt
+--input_height 320
+--input_width 1024
+--min_depth 0.001
+--max_depth 80
+--do_random_rotate
+--degree 1.0
+--data_path_eval depth/kitti_dataset/
+--gt_path_eval depth/kitti_dataset/
+--filenames_file_eval ./finetune/train_test_inputs/kitti_eigen_test_files_with_gt.txt
+--min_depth_eval 1e-3
+--max_depth_eval 80
+--do_kb_crop
+--garg_crop
+--same_lr

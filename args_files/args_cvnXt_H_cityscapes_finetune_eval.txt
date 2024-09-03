@@ -1,0 +1,21 @@
+--eval_data_path /mnt/data1/nick/depth/SfMNeXt-Impl/cityscapes
+--dataset cityscapes_preprocessed 
+--split cityscapes_preprocessed 
+--eval_split cityscapes 
+--height 320 
+--width 1024
+--batch_size 16
+--model_dim 32
+--patch_size 32
+--query_nums 64
+--dec_channels 1024 512 256 128
+--dim_out 64
+--min_depth 0.01
+--max_depth 80.0
+--eval_mono
+--load_weights_folder /mnt/data1/nick/depth/SfMNeXt-Impl/exps/inc_cityscapes_exps_v13
+--post_process
+--save_pred_disps
+
+
+
