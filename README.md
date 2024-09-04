@@ -2,6 +2,13 @@
 
 </a> <a href='https://arxiv.org/abs/2404.12501'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a>
 
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/spidepth-strengthened-pose-information-for/monocular-depth-estimation-on-kitti-eigen)](https://paperswithcode.com/sota/monocular-depth-estimation-on-kitti-eigen?p=spidepth-strengthened-pose-information-for)
+<br>
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/spidepth-strengthened-pose-information-for/monocular-depth-estimation-on-kitti-eigen-1)](https://paperswithcode.com/sota/monocular-depth-estimation-on-kitti-eigen-1?p=spidepth-strengthened-pose-information-for)
+<br>
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/spidepth-strengthened-pose-information-for/unsupervised-monocular-depth-estimation-on)](https://paperswithcode.com/sota/unsupervised-monocular-depth-estimation-on?p=spidepth-strengthened-pose-information-for)
+<br>
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/spidepth-strengthened-pose-information-for/monocular-depth-estimation-on-make3d)](https://paperswithcode.com/sota/monocular-depth-estimation-on-make3d?p=spidepth-strengthened-pose-information-for)
 
 ## Training
 
